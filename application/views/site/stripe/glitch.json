@@ -1,0 +1,10 @@
+{
+  "install": "composer install",
+  "start": "composer start",
+  "watch": {
+    "ignore": [
+      "logs",
+      "vendor"
+    ]
+  }
+}

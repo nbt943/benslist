@@ -13,7 +13,7 @@ class Ajax extends BaseController {
 		if($this->session->userdata('role') != '1') { 
 			redirect(base_url('dashboard'));
 		}
-	}.
+	}
 
 	public function get_states_by_country()
 	{

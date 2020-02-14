@@ -15,6 +15,8 @@ class Ajax extends BaseController {
 		}
 	}
 
+	//test test
+
 	public function get_states_by_country()
 	{
 		$country_id = $_POST['country_id'];

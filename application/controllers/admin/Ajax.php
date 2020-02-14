@@ -4,6 +4,7 @@ require APPPATH . '/libraries/BaseController.php';
 
 class Ajax extends BaseController {
 	public function __construct() {
+		//ATul
 		parent::__construct();
 		$this->load->library('session');
 		$this->load->library('form_validation'); 
